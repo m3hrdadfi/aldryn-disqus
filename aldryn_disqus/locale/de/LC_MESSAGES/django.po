@@ -7,24 +7,44 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cmsplugin-disqus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-14 15:36+0100\n"
-"PO-Revision-Date: 2011-11-14 13:45+0000\n"
+"POT-Creation-Date: 2018-02-02 20:01+0330\n"
+"PO-Revision-Date: 2018-02-02 20:05+0330\n"
 "Last-Translator: ojii <me@ojii.ch>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: cms_plugins.py:12
+#: apps/aldryn_disqus/aldryn_disqus/cms_plugins.py:12
 msgid "Disqus Plugin"
 msgstr "Disqus Plugin"
 
-#: models.py:10
-msgid "Title"
-msgstr "Titel"
+#: apps/aldryn_disqus/aldryn_disqus/models.py:9
+msgid "Shortname"
+msgstr "Kurzer Name"
 
-#: models.py:11
-msgid "Title for your comments, if empty, the page title will be used"
-msgstr "Titel der Kommentare. Falls leer wird der Seiten Titel benutzt."
+#: apps/aldryn_disqus/aldryn_disqus/models.py:21
+msgid "Disqus Service"
+msgstr "Disqus Service"
+
+#: apps/aldryn_disqus/aldryn_disqus/templates/aldryn_disqus/disqus.html:4
+msgid ""
+"Please enable JavaScript to view the <a href=\"http://disqus.com/?"
+"ref_noscript\">comments powered by Disqus.</a>"
+msgstr ""
+"Bitte aktivieren Sie JavaScript, um die <a href=“http://disqus.com/?"
+"ref_noscript”> Kommentare von Disqus anzuzeigen. </a>"
+
+#: apps/aldryn_disqus/aldryn_disqus/templates/aldryn_disqus/disqus.html:5
+msgid "blog comments powered by <span class=\"logo-disqus\">Disqus</span>"
+msgstr ""
+"Blogkommentare powered by <span class = “logo-disqus”> Disqus </ span>"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Title for your comments, if empty, the page title will be used"
+#~ msgstr "Titel der Kommentare. Falls leer wird der Seiten Titel benutzt."

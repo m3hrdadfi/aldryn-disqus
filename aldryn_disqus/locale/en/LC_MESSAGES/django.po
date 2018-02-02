@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-14 15:36+0100\n"
+"POT-Creation-Date: 2018-02-02 20:01+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,14 +17,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: cms_plugins.py:12
+#: apps/aldryn_disqus/aldryn_disqus/cms_plugins.py:12
 msgid "Disqus Plugin"
 msgstr "Disqus Plugin"
 
-#: models.py:10
-msgid "Title"
-msgstr "Title"
+#: apps/aldryn_disqus/aldryn_disqus/models.py:9
+msgid "Shortname"
+msgstr ""
 
-#: models.py:11
-msgid "Title for your comments, if empty, the page title will be used"
-msgstr "Title for your comments, if empty, the page title will be used"
+#: apps/aldryn_disqus/aldryn_disqus/models.py:21
+msgid "Disqus Service"
+msgstr ""
+
+#: apps/aldryn_disqus/aldryn_disqus/templates/aldryn_disqus/disqus.html:4
+msgid ""
+"Please enable JavaScript to view the <a href=\"http://disqus.com/?"
+"ref_noscript\">comments powered by Disqus.</a>"
+msgstr ""
+
+#: apps/aldryn_disqus/aldryn_disqus/templates/aldryn_disqus/disqus.html:5
+msgid "blog comments powered by <span class=\"logo-disqus\">Disqus</span>"
+msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "Title"
+
+#~ msgid "Title for your comments, if empty, the page title will be used"
+#~ msgstr "Title for your comments, if empty, the page title will be used"
