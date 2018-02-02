@@ -7,17 +7,19 @@ from django.utils.translation import ugettext_lazy as _
 
 
 class DisqusPlugin(CMSPluginBase):
-
+    model = models.DisqusPlugin
+    name = _('Disqus Plugin')
     render_template = 'aldryn_disqus/disqus.html'
     admin_preview = False
-    name = _('Disqus Plugin')
-    model = models.DisqusPlugin
     page_only = True
+    allow_children = True
 
     def render(self, context, instance, placeholder):
-        context['DISQUS_SHORTNAME'] = settings.DISQUS_SHORTNAME
+        context['DISQUS_SHORTNAME'] = instance.disqus.shortname if instance and instance.disqus and \
+                                                                   instance.disqus.shortname else None
         context['instance'] = instance
         context['developer_mode'] = settings.DEBUG
         return context
+
 
 plugin_pool.register_plugin(DisqusPlugin)
